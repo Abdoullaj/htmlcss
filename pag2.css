@@ -1,0 +1,24 @@
+
+nav ul {
+    font-size:0px;
+}
+nav ul li { 
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    width:25%;
+    font-size: 30px;
+    }
+
+a {
+    display: block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+#navbar:after{
+    content:"";
+    display: table;
+    clear:both;
+}

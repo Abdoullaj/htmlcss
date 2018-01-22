@@ -1,0 +1,39 @@
+
+.navbar {
+    font-size:0px;
+}
+nav ul li { 
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    width:25%;
+    font-size: 30px;
+    }
+
+a {
+    display: block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+a:hover{
+    color:black;
+    background-color: white;
+}
+.group+after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+#article {
+    overflow: auto;
+    height: 180px;
+}
+#imgalato{
+    float: left;
+}
+
+
+h1{font-size: 80px;}
